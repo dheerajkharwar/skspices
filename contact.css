@@ -1,0 +1,100 @@
+.contact_head{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: chocolate;
+}
+.top_head{
+    width: 100%;
+    height: auto;
+    background-color: rgb(192, 162, 162);
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+  }
+.contact{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    text-align: center;
+    display: block;
+    float: left;
+    overflow: hidden;
+    border-top: 1px solid thistle;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: 1.8vw;
+  }
+  td{
+      min-width: 120px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  .contact1{
+    width: 50%;
+    min-width: 300px;
+    background-color: rgb(230, 230, 250);
+    text-align: left;
+    margin-top: 20px;
+  }
+  .contact1 h3{
+    width: 90%;
+    height: auto;
+    font-size: 18px;
+    margin-left: 22px;
+  }
+  .contact1 label{
+    width: 90%;
+    font-size: 1.8vw;
+    margin-left: 22px;
+  }
+  .contact2{
+    text-align: center;
+    width: 100%;
+  }
+  .contact2 .quick_info{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    background-color: burlywood;
+  }
+  .contact2 a{
+    text-decoration: none;
+    color: cornflowerblue;
+  }
+  .loc, .mob, .email, .web{
+    margin-top: 30px;
+    width: 21%;
+    min-width: 240px;
+    height: auto;
+    display: inline-table;
+  }
+  .contact2 .quick_info img{
+    width: 20%;
+    height: auto;
+  }
+  .contact2 .quick_info strong{
+    font-size: 15px;
+  }
+  .contact2 .quick_info p{
+    font-size: 13px;
+  }
+  .contact1, .contact2{
+    display: inline-block;
+  }
